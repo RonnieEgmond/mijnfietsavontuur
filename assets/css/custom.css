@@ -1,0 +1,6 @@
+.post-content {
+    background-image: url('/assets/images/ronald.jpg');
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+}

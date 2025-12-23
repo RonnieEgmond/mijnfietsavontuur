@@ -23,8 +23,8 @@ class handler(BaseHTTPRequestHandler):
             # 3. SMTP instellingen (Mailtrap / Mailsandbox)
             smtp_server = "smtp.mailsandbox.com"
             smtp_port   = 2525
-            smtp_user   = "ronaldus.egmond@gmail.com" # Jouw username
-            smtp_pass   = "lamoraal2025"   # Jouw password
+            smtp_user   = "ms_t2gk6gatdptl" # Jouw username
+            smtp_pass   = "4sstyjvfvbn5cj"   # Jouw password
             mail_from_address = "hello@example.com"
 
             # 4. Mail opstellen

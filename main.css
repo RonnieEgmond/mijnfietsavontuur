@@ -42,7 +42,7 @@ body::before {
   background-position: center;
   
   /* De vervaging */
-  filter: blur(10px); 
+  filter: blur(1px); 
   
   /* Optioneel: Maakt de randen strakker door de afbeelding iets te vergroten */
   transform: scale(1.1); 

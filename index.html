@@ -6,15 +6,14 @@
     margin: 0;
     padding: 50px;
     font-family: sans-serif;
-    color: white;
+    /* VERANDERD: Kleur naar zwart gezet voor leesbaarheid op lichte achtergrond */
+    color: #000; 
     min-height: 100vh;
     position: relative;
-    overflow-x: hidden; /* Voorkomt scrollen door de vergrote achtergrond */
+    overflow-x: hidden;
   }
 
-  /* DEZE NIEUWE KLASSE VERVANGT DE body::before */
   .background-blur {
-    content: "";
     position: fixed;
     top: 0;
     left: 0;
@@ -22,25 +21,31 @@
     height: 100%;
     z-index: -1; 
     
-    /* Gebruik hier het pad naar je foto */
     background-image: url('/assets/achtergrond.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 
-    /* De vervaging (75px is extreem vaag) */
-    filter: blur(75px); 
+    /* VERANDERD: Blur verwijderd en brightness toegevoegd */
+    /* 1.0 is normaal, alles boven de 1 (bijv. 1.7) maakt de foto lichter */
+    filter: brightness(1.7); 
     
-    /* Scale is nodig om witte randen door de blur te voorkomen */
-    transform: scale(1.2); 
+    /* VERANDERD: Scale is niet meer nodig zonder blur */
+    transform: scale(1); 
   }
 
   .content-box {
-    background: rgba(0,0,0,0.6);
+    /* OPTIONEEL: Achtergrond van de box lichter maken in plaats van donker */
+    background: rgba(255, 255, 255, 0.8); 
     padding: 20px;
     border-radius: 10px;
     position: relative; 
     margin-bottom: 20px;
+  }
+
+  /* Zorg dat links ook goed zichtbaar blijven */
+  a {
+    color: #0044cc;
   }
 </style>
 </head>
@@ -48,26 +53,31 @@
   <div class="background-blur"></div>
 
   <div class="content-box">
-    <h1>Welkom op Dunetravel</h1>
+    <h1>Welkom op mijnfietsavontuur.nl</h1>
     <p>
-      Luister hier naar REM en Neil Young Ambulance Blues:
+      Luister hier naar Queen Bicycle Race:
       <br>
-      <a href="https://www.youtube.com/watch?v=bCQisTEdBwY" target="_blank" style="color: yellow;">
-        Neil Young & R.E.M. met Ambulance Blues
+      <a href="https://www.youtube.com/watch?v=xt0V0_1MS0Q" target="_blank">
+      Queen Bicycle Race:
       </a>.
     </p>
-  </div>
+
 
   <h2 class="post-list-heading">Posts</h2>
   <ul class="post-list">
     <li>
-      <span class="post-meta">Nov 24, 2025</span>
-      <h3><a class="post-link" href="welcome-to-jekyll.html">Welcome to Dunetravel</a></h3>
+      <span class="post-meta">Dec 25, 2025</span>
+      <h3><a class="post-link" href="over-mij-fietsavonturier.html">Over mij fietsavonturier</a></h3>
     </li>
     <li>
-      <span class="post-meta">Nov 24, 2025</span>
-      <h3><a class="post-link" href="mail.html">Verstuur een mail.</a></h3>
+      <span class="post-meta">ongeveer 82, 1982</span>
+      <h3><a class="post-link" href="vittorio.html">Handgemaakte Vittorio door Frank de Groot</a></h3>
+    </li>
+    <li>
+      <span class="post-meta">juni 91, 2025</span>
+      <h3><a class="post-link" href="ventoux.html">Cevennen,Tarn,Ardeche en Ventoux</a></h3>
     </li>
   </ul>
+  </div>
 </body>
 </html>

@@ -17,7 +17,7 @@ body {
     height: 100%;
     z-index: -1; 
     
-    background-image: url('/assets/achtergrond.jpg');
+    background-image: url('../img/collias2017.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

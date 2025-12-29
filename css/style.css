@@ -50,6 +50,9 @@ body {
 .vittorio-bg {
     background-image: url('../img/vittorio.jpg');
 }
+.hermancoster-bg {
+    background-image: url('../img/hermancoster.jpg');
+}
 
   /* Zorg dat links ook goed zichtbaar blijven */
   a {

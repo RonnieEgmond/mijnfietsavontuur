@@ -22,7 +22,7 @@ body {
 
     /* VERANDERD: Blur verwijderd en brightness toegevoegd */
     /* 1.0 is normaal, alles boven de 1 (bijv. 1.7) maakt de foto lichter */
-    filter: brightness(1.7); 
+    filter: brightness(1.5); 
     
     /* VERANDERD: Scale is niet meer nodig zonder blur */
     transform: scale(1); 

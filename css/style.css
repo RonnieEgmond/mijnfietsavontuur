@@ -44,6 +44,12 @@ body {
 .ronald-bg {
     background-image: url('../img/ronald.jpg');
 }
+.ventoux-bg {
+    background-image: url('../img/ventoux.jpg');
+}
+.vittorio-bg {
+    background-image: url('../img/vittorio.jpg');
+}
 
   /* Zorg dat links ook goed zichtbaar blijven */
   a {

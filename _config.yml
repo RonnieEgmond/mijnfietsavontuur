@@ -1,33 +1,18 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Mijn fietsavonturen
-email: ronnieegmond@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://localhost:4000"
-twitter_username: ronnie
-github_username:  ronnieegmond@gmail
+# De titel die bovenin het tabblad van de browser en in Google komt te staan
+title: Mijn Fietsavontuur | Reisverslagen van Ronald Duinmeijer
 
+# De omschrijving die Google toont in de zoekresultaten (max 160 tekens)
+description: >-
+  Persoonlijke fietsverhalen en reisverslagen van Ronald Duinmeijer. Ontdek 
+  avonturen op de Mont Ventoux, Hadrian's Wall en de legendarische Herman Coster route.
+
+# Belangrijk: Zet hier je echte domeinnaam neer (zonder slash aan het eind)
+url: "https://mijnfietsavontuur.nl"
+
+# Gebruikersnamen (github aangepast naar alleen de naam, niet de mail)
+twitter_username: ronnie
+github_username: ronnieegmond
 # Build settings
 theme: minima
 plugins:

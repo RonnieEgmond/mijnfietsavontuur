@@ -38,7 +38,9 @@ body {
   }
 /* Specifieke plaatjes per pagina */
 .collias-bg {
-    background-image: url('../img/collias2017.jpg');
+    background-image: url("/images/collias.jpg"); /* De eerste slash is cruciaal! */
+    background-size: cover;
+    /* andere stijlen... */
 }
 
 .ronald-bg {

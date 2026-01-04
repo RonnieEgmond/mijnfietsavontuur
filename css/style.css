@@ -1,3 +1,5 @@
+---
+---
 body {
     margin: 0;
     padding: 50px;
@@ -38,11 +40,8 @@ body {
   }
 /* Specifieke plaatjes per pagina */
 .collias-bg {
-    background-image: url("/images/collias.jpg"); /* De eerste slash is cruciaal! */
-    background-size: cover;
-    /* andere stijlen... */
+    background-image: url('{{ "/img/collias2017.jpg" | relative_url }}');
 }
-
 .ronald-bg {
     background-image: url('../img/ronald.jpg');
 }

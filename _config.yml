@@ -7,8 +7,8 @@ description: >-
   Persoonlijke fietsverhalen en reisverslagen van Ronald. Ontdek 
   avonturen op de Mont Ventoux, Hadrian's Wall en de legendarische Herman Coster route.
 
-# Belangrijk: Zet hier je echte domeinnaam neer (zonder slash aan het eind)
-url: "https://mijnfietsavontuur.nl"
+url: "https://ronnieegmond.github.io"
+baseurl: "/mijnfietsavontuur"
 
 # Gebruikersnamen (github aangepast naar alleen de naam, niet de mail)
 twitter_username: ronnie

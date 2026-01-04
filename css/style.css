@@ -41,8 +41,9 @@ body {
 /* Specifieke plaatjes per pagina */
 .collias-bg {
     background-image: url('{{ "/img/collias2017.jpg" | relative_url }}');
-}
-.ronald-bg {
+    background-size: cover;
+    background-position: center;
+}.ronald-bg {
     background-image: url('../img/ronald.jpg');
 }
 .ventoux-bg {

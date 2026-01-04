@@ -2,7 +2,7 @@ name: Deploy Jekyll site to Pages
 
 on:
   push:
-    branches: ["main"] # Verander dit in "master" als jouw branch zo heet
+    branches: ["main"]
   workflow_dispatch:
 
 permissions:
@@ -13,6 +13,7 @@ permissions:
 concurrency:
   group: "pages"
   cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -22,8 +23,8 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.3' # Gebruik een stabiele Ruby versie
-          bundler-cache: true # Zorgt dat je plugins (sitemap, seo) snel installeren
+          ruby-version: '3.3'
+          bundler-cache: true
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Build with Jekyll
@@ -31,8 +32,9 @@ jobs:
         env:
           JEKYLL_ENV: production
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3  
-        deploy:
+        uses: actions/upload-pages-artifact@v3
+
+  deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

@@ -57,10 +57,10 @@ body {
     background-image: url('../img/hermancoster.jpg');
 }
 .hctent-bg {
-    background-image: url('../img/hctent.jpg');
+    background-image: url('/img/hctent.jpg');
 }
 .amsterdam-bg {
-    background-image: url('../img/amsterdam.jpg');
+    background-image: url('/img/amsterdam.jpg');
 }
 
   /* Zorg dat links ook goed zichtbaar blijven */

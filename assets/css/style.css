@@ -45,16 +45,16 @@ body {
     background-size: cover;
     background-position: center;
 }.ronald-bg {
-    background-image: url('../img/ronald.jpg');
+    background-image: url('/img/ronald.jpg');
 }
 .ventoux-bg {
-    background-image: url('../img/ventoux.jpg');
+    background-image: url('/img/ventoux.jpg');
 }
 .vittorio-bg {
-    background-image: url('../img/vittorio.jpg');
+    background-image: url('/img/vittorio.jpg');
 }
 .hermancoster-bg {
-    background-image: url('../img/hermancoster.jpg');
+    background-image: url('/img/hermancoster.jpg');
 }
 .hctent-bg {
     background-image: url('/img/hctent.jpg');

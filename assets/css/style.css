@@ -59,10 +59,24 @@ body {
 .hctent-bg {
     background-image: url('/img/hctent.jpg');
 }
-.amsterdam-bg {
-    background-image: url('/img/amsterdam.jpg');
+.nonsard-bg {
+    background-image: url('/img/nonsard.jpg');
 }
-
+.lacdestpoint-bg {
+    background-image: url('/img/lacdestpoint.jpg');
+}
+.provence-bg {
+    background-image: url('/img/provence.jpg');
+}
+.middelzee-bg {
+    background-image: url('/img/middelzee.jpg');
+}
+.hadrian-bg {
+    background-image: url('/img/hadrian2011.jpg');
+}
+.provence2-bg {
+    background-image: url('/img/provence2.jpg');
+}
   /* Zorg dat links ook goed zichtbaar blijven */
   a {
     color: #0044cc;

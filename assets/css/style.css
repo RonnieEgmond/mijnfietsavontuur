@@ -1,18 +1,16 @@
----
----
-@import "minima";
+/* Volledig opgeschoonde CSS voor Ronald's Fietsavontuur */
+
 body {
     margin: 0;
-    padding: 50px;
+    padding: 20px; /* Iets minder padding voor mobielvriendelijkheid */
     font-family: sans-serif;
-    /* VERANDERD: Kleur naar zwart gezet voor leesbaarheid op lichte achtergrond */
     color: #000; 
     min-height: 100vh;
     position: relative;
     overflow-x: hidden;
-  }
+}
 
-  .background-blur {
+.background-blur {
     position: fixed;
     top: 0;
     left: 0;
@@ -22,98 +20,49 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-
-    /* VERANDERD: Blur verwijderd en brightness toegevoegd */
-    /* 1.0 is normaal, alles boven de 1 (bijv. 1.7) maakt de foto lichter */
     filter: brightness(1.5); 
-    
-    /* VERANDERD: Scale is niet meer nodig zonder blur */
     transform: scale(1); 
-  }
+}
 
-  .content-box {
-    /* OPTIONEEL: Achtergrond van de box lichter maken in plaats van donker */
+.content-box {
     background: rgba(255, 255, 255, 0.8); 
     padding: 20px;
     border-radius: 10px;
     position: relative; 
     margin-bottom: 20px;
-  }
-/* Specifieke plaatjes per pagina */
-.collias-bg {
-    background-image: url('{{ "/img/collias2017.jpg" | relative_url }}');
-    background-size: cover;
-    background-position: center;
-}.ronald-bg {
-    background-image: url('/img/ronald.jpg');
-}
-.ventoux-bg {
-    background-image: url('/img/ventoux.jpg');
-}
-.vittorio-bg {
-    background-image: url('/img/vittorio.jpg');
-}
-.hermancoster-bg {
-    background-image: url('/img/hermancoster.jpg');
-}
-.hctent-bg {
-    background-image: url('/img/hctent.jpg');
-}
-.nonsard-bg {
-    background-image: url('/img/nonsard.jpg');
-}
-.lacdestpoint-bg {
-    background-image: url('/img/lacdestpoint.jpg');
-}
-.provence-bg {
-    background-image: url('/img/provence.jpg');
-}
-.middelzee-bg {
-    background-image: url('/img/middelzee.jpg');
-}
-.hadrian-bg {
-    background-image: url('/img/hadrian2011.jpg');
-}
-.provence2-bg {
-    background-image: url('/img/provence2.jpg');
-}
-.koken-bg {
-    background-image: url('/img/koken.jpg');
-}
-.regenkleding-bg {
-    background-image: url('/img/regenkleding.jpg');
-}
-.koffiezettendorpsplein-bg {
-    background-image: url('/img/koffiezettendorpsplein.jpg');
-}
-.narbonne-bg {
-    background-image: url('/img/narbonne.jpg');
-}
-.carcassonne-bg {
-    background-image: url('/img/carcassonne.jpg');
-}
-  /* Zorg dat links ook goed zichtbaar blijven */
-  a {
-    color: #0044cc;
-  }
-/* Instellingen voor tablets en kleiner */
-@media (max-width: 768px) {
-  body {
-    font-size: 16px;
-  }
-  .container {
-    width: 95%; /* Gebruik meer breedte op kleine schermen */
-  }
+    max-width: 900px; /* Zorgt dat de tekst niet te breed wordt op grote schermen */
+    margin-left: auto;
+    margin-right: auto;
 }
 
-/* Instellingen voor mobiele telefoons */
-@media (max-width: 480px) {
-  .menu {
-    display: block; /* Zet menu-items onder elkaar */
-  }
+/* Specifieke plaatjes per pagina - Paden hersteld naar normale HTML */
+.collias-bg { background-image: url('/img/collias2017.jpg'); }
+.ronald-bg { background-image: url('/img/ronald.jpg'); }
+.ventoux-bg { background-image: url('/img/ventoux.jpg'); }
+.vittorio-bg { background-image: url('/img/vittorio.jpg'); }
+.hermancoster-bg { background-image: url('/img/hermancoster.jpg'); }
+.hctent-bg { background-image: url('/img/hctent.jpg'); }
+.nonsard-bg { background-image: url('/img/nonsard.jpg'); }
+.lacdestpoint-bg { background-image: url('/img/lacdestpoint.jpg'); }
+.provence-bg { background-image: url('/img/provence.jpg'); }
+.middelzee-bg { background-image: url('/img/middelzee.jpg'); }
+.hadrian-bg { background-image: url('/img/hadrian2011.jpg'); }
+.provence2-bg { background-image: url('/img/provence2.jpg'); }
+.koken-bg { background-image: url('/img/koken.jpg'); }
+.regenkleding-bg { background-image: url('/img/regenkleding.jpg'); }
+.koffiezettendorpsplein-bg { background-image: url('/img/koffiezettendorpsplein.jpg'); }
+.narbonne-bg { background-image: url('/img/narbonne.jpg'); }
+.carcassonne-bg { background-image: url('/img/carcassonne.jpg'); }
+
+a { color: #0044cc; }
+
+@media (max-width: 768px) {
+    body { padding: 10px; font-size: 16px; }
+    .content-box { width: 95%; padding: 15px; }
 }
+
 img {
-  max-width: 100%;
-  height: auto; /* Behoudt de juiste verhoudingen */
-  display: block;
+    max-width: 100%;
+    height: auto;
+    display: block;
 }

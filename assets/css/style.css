@@ -77,6 +77,21 @@ body {
 .provence2-bg {
     background-image: url('/img/provence2.jpg');
 }
+.koken-bg {
+    background-image: url('/img/koken.jpg');
+}
+.regenkleding-bg {
+    background-image: url('/img/regenkleding.jpg');
+}
+.koffiezettendorpsplein-bg {
+    background-image: url('/img/koffiezettendorpsplein.jpg');
+}
+.narbonne-bg {
+    background-image: url('/img/narbonne.jpg');
+}
+.carcassonne-bg {
+    background-image: url('/img/carcassonne.jpg');
+}
   /* Zorg dat links ook goed zichtbaar blijven */
   a {
     color: #0044cc;

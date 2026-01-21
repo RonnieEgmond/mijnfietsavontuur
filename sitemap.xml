@@ -1,50 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <url>
-    <loc>https://mijnfietsavontuur.nl/index.html</loc>
-    <lastmod>2026-01-20</lastmod>
-    <priority>1.00</priority>
-  </url>
-  <url>
-    <loc>https://mijnfietsavontuur.nl/over-mij-fietsavonturier.html</loc>
-    <lastmod>2026-01-20</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://mijnfietsavontuur.nl/aanbevelingen.html</loc>
-    <lastmod>2026-01-20</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://mijnfietsavontuur.nl/boeken-tips.html</loc>
-    <lastmod>2026-01-20</lastmod>
-    <priority>0.70</priority>
-  </url>
-  <url>
-    <loc>https://mijnfietsavontuur.nl/privacy.html</loc>
-    <lastmod>2026-01-20</lastmod>
-    <priority>0.30</priority>
-  </url>
-  <url>
-    <loc>https://mijnfietsavontuur.nl/contact.html</loc>
-    <lastmod>2026-01-20</lastmod>
-    <priority>0.30</priority>
-  </url>
+  <url><loc>https://mijnfietsavontuur.nl/index.html</loc><lastmod>2026-01-21</lastmod><priority>1.00</priority></url>
 
-  <url><loc>https://mijnfietsavontuur.nl/bagage.html</loc><lastmod>2026-01-20</lastmod><priority>0.70</priority></url>
-  <url><loc>https://mijnfietsavontuur.nl/regenkleding.html</loc><lastmod>2026-01-20</lastmod><priority>0.70</priority></url>
-  <url><loc>https://mijnfietsavontuur.nl/pedalen.html</loc><lastmod>2026-01-20</lastmod><priority>0.70</priority></url>
-  <url><loc>https://mijnfietsavontuur.nl/banden.html</loc><lastmod>2026-01-20</lastmod><priority>0.70</priority></url>
-  <url><loc>https://mijnfietsavontuur.nl/tools.html</loc><lastmod>2026-01-20</lastmod><priority>0.70</priority></url>
+  <url><loc>https://mijnfietsavontuur.nl/reisverslagen.html</loc><lastmod>2026-01-21</lastmod><priority>0.90</priority></url>
+  <url><loc>https://mijnfietsavontuur.nl/aanbevelingen.html</loc><lastmod>2026-01-21</lastmod><priority>0.90</priority></url>
+  <url><loc>https://mijnfietsavontuur.nl/over-mij-fietsavonturier.html</loc><lastmod>2026-01-21</lastmod><priority>0.90</priority></url>
 
-  <url><loc>https://mijnfietsavontuur.nl/indexmm.html</loc><lastmod>2026-01-20</lastmod><priority>0.90</priority></url>
-  <url><loc>https://mijnfietsavontuur.nl/hermancoster1.html</loc><lastmod>2026-01-20</lastmod><priority>0.70</priority></url>
-  <url><loc>https://mijnfietsavontuur.nl/hermancoster2.html</loc><lastmod>2026-01-20</lastmod><priority>0.70</priority></url>
-  <url><loc>https://mijnfietsavontuur.nl/hermancoster3.html</loc><lastmod>2026-01-20</lastmod><priority>0.70</priority></url>
-  <url><loc>https://mijnfietsavontuur.nl/hermancoster4.html</loc><lastmod>2026-01-20</lastmod><priority>0.70</priority></url>
-  <url><loc>https://mijnfietsavontuur.nl/ventoux.html</loc><lastmod>2026-01-20</lastmod><priority>0.70</priority></url>
-  <url><loc>https://mijnfietsavontuur.nl/hadwalc2c.html</loc><lastmod>2026-01-20</lastmod><priority>0.70</priority></url>
-  <url><loc>https://mijnfietsavontuur.nl/provence.html</loc><lastmod>2026-01-20</lastmod><priority>0.70</priority></url>
+  <url><loc>https://mijnfietsavontuur.nl/boeken-tips.html</loc><lastmod>2026-01-21</lastmod><priority>0.80</priority></url>
+  <url><loc>https://mijnfietsavontuur.nl/bagage.html</loc><lastmod>2026-01-21</lastmod><priority>0.80</priority></url>
+  <url><loc>https://mijnfietsavontuur.nl/regenkleding.html</loc><lastmod>2026-01-21</lastmod><priority>0.80</priority></url>
+  <url><loc>https://mijnfietsavontuur.nl/pedalen.html</loc><lastmod>2026-01-21</lastmod><priority>0.80</priority></url>
+  <url><loc>https://mijnfietsavontuur.nl/banden.html</loc><lastmod>2026-01-21</lastmod><priority>0.80</priority></url>
+  <url><loc>https://mijnfietsavontuur.nl/tools.html</loc><lastmod>2026-01-21</lastmod><priority>0.80</priority></url>
 
+  <url><loc>https://mijnfietsavontuur.nl/indexmm.html</loc><lastmod>2026-01-21</lastmod><priority>0.70</priority></url>
+  <url><loc>https://mijnfietsavontuur.nl/hermancoster1.html</loc><lastmod>2026-01-21</lastmod><priority>0.70</priority></url>
+  <url><loc>https://mijnfietsavontuur.nl/hermancoster2.html</loc><lastmod>2026-01-21</lastmod><priority>0.70</priority></url>
+  <url><loc>https://mijnfietsavontuur.nl/hermancoster3.html</loc><lastmod>2026-01-21</lastmod><priority>0.70</priority></url>
+  <url><loc>https://mijnfietsavontuur.nl/hermancoster4.html</loc><lastmod>2026-01-21</lastmod><priority>0.70</priority></url>
+
+  <url><loc>https://mijnfietsavontuur.nl/ventoux.html</loc><lastmod>2026-01-21</lastmod><priority>0.70</priority></url>
+  <url><loc>https://mijnfietsavontuur.nl/hadwalc2c.html</loc><lastmod>2026-01-21</lastmod><priority>0.70</priority></url>
+  <url><loc>https://mijnfietsavontuur.nl/provence.html</loc><lastmod>2026-01-21</lastmod><priority>0.70</priority></url>
+
+  <url><loc>https://mijnfietsavontuur.nl/privacy.html</loc><lastmod>2026-01-21</lastmod><priority>0.30</priority></url>
+  <url><loc>https://mijnfietsavontuur.nl/contact.html</loc><lastmod>2026-01-21</lastmod><priority>0.30</priority></url>
 </urlset>
